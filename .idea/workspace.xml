@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90ed5e58-fb3f-4c6c-8ae2-0cbaf011c9e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ProvaDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/realizaCompraTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/realizaCompraTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,10 +31,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/realizaCompraTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ProvaDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="257">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,6 +60,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/tests/realizaCompra_test.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/realizaCompraTest.java" />
+        <option value="$PROJECT_DIR$/src/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ProvaDB.java" />
       </list>
     </option>
   </component>
@@ -98,14 +104,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="provadb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProvaDB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -114,7 +112,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563242851233" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563247245391" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -131,7 +129,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ProvaDB.entraProduto">
+    <configuration name="ProvaDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="provadb" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProvaDB" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProvaDB.entraProduto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="provadb" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProvaDB" />
+      <option name="METHOD_NAME" value="entraProduto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="realizaCompraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="provadb" />
       <extension name="coverage">
@@ -147,8 +164,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="realizaCompraTest.realizaAcessoSite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="provadb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.realizaCompraTest" />
+      <option name="METHOD_NAME" value="realizaAcessoSite" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProvaDB.entraProduto" />
+        <item itemvalue="JUnit.ProvaDB" />
+        <item itemvalue="JUnit.realizaCompraTest.realizaAcessoSite" />
         <item itemvalue="JUnit.realizaCompraTest" />
       </list>
     </recent_temporary>
@@ -167,8 +203,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="realizaCompraTest - 2019.07.15 at 23h 07m 15s.xml">
+    <history-entry file="realizaCompraTest_realizaAcessoSite - 2019.07.15 at 23h 32m 04s.xml">
+      <configuration name="realizaCompraTest.realizaAcessoSite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="realizaCompraTest - 2019.07.15 at 23h 46m 01s.xml">
       <configuration name="realizaCompraTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="realizaCompraTest_realizaAcessoSite - 2019.07.15 at 23h 47m 13s.xml">
+      <configuration name="realizaCompraTest.realizaAcessoSite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="realizaCompraTest_realizaAcessoSite - 2019.07.15 at 23h 52m 18s.xml">
+      <configuration name="realizaCompraTest.realizaAcessoSite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="realizaCompraTest_realizaAcessoSite - 2019.07.15 at 23h 53m 09s.xml">
+      <configuration name="realizaCompraTest.realizaAcessoSite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="realizaCompraTest_realizaAcessoSite - 2019.07.15 at 23h 55m 40s.xml">
+      <configuration name="realizaCompraTest.realizaAcessoSite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="realizaCompraTest_realizaAcessoSite - 2019.07.15 at 23h 56m 47s.xml">
+      <configuration name="realizaCompraTest.realizaAcessoSite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="realizaCompraTest_realizaAcessoSite - 2019.07.16 at 00h 03m 57s.xml">
+      <configuration name="realizaCompraTest.realizaAcessoSite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProvaDB - 2019.07.16 at 00h 16m 31s.xml">
+      <configuration name="ProvaDB" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProvaDB - 2019.07.16 at 00h 18m 49s.xml">
+      <configuration name="ProvaDB" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -185,11 +248,11 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32843137" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32843137" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49183005" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -202,6 +265,47 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="driver.findElements(By.tagName(&quot;iframe&quot;)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>driver.findElements(By.tagName(&quot;iframe&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.switchTo().frame(0);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.findElement(By.xpath(&quot;//*[@id=\&quot;add_to_cart\&quot;]/button&quot;)).click();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.switchTo().frame(1);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.getWindowHandles()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.switchTo().activeElement()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -217,10 +321,33 @@
     <entry file="file://$PROJECT_DIR$/provadb.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/realizaCompraTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/tttt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ProvaDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
